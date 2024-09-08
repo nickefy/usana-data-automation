@@ -46,6 +46,10 @@ if not new_entries.empty:
     df_combined.to_csv(SHARED_DATA_PATH, index=False)
     shutil.copyfile(RAW_DATA_PATH, LAST_RAW_DATA_PATH)
     print(f"The last_raw_data file has been replaced with the contents of raw_data.")
+
+if new_entries.empty:
+    print("There are no new submissions since the last run")
+    
     
     
     

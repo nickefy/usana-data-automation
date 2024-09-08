@@ -6,6 +6,8 @@ Your python path is /usr/local/bin/python3
 
 ## Steps
 
+0. Open the terminal. cd to the usana-data-automation folder. To run files, use python3 <your-file-name>
+
 1. Download the jotform raw data from the url here https://www.jotform.com/csv/242513533264047 and replace the csv with the raw_data.csv file. You must be logged in jotform to do so.
 
 2. Download the shared_data from the usana onedrive in this url here. https://usanaverse-my.sharepoint.com/:x:/g/personal/celeste_yee_usanainc_com/EXEu-P44EoNKpPGNX5JDBiEBzebuBndx1giJkdysNX49sw?e=5Gj2ky. From menu -> export as csv. Replace the csv with the shared_data.csv
